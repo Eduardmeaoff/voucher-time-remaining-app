@@ -27,7 +27,7 @@ export default function Home() {
         <div style={{ display: 'flex', columnGap: '6px' }} className={inter.className}>
           <span>
 
-            Order with {diffHrs} hr {diffMins} mins & Get it
+            Order within {diffHrs} hr {diffMins} mins & Get it
           </span>
           <span style={{ fontWeight: 600 }}>
 
