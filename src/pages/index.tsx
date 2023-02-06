@@ -27,12 +27,9 @@ export default function Home() {
         <div style={{ display: 'flex', columnGap: '6px' }} className={inter.className}>
           <span>
 
-            Order within {diffHrs} hr {diffMins} mins & Get it
+            Order within {diffHrs} hr {diffMins} mins & Get it <strong> {new Date(today).toLocaleString("en-US", options)}</strong>
           </span>
-          <span style={{ fontWeight: 600 }}>
-
-            {new Date(today).toLocaleString("en-US", options)}
-          </span>
+          {/*   */}
         </div>
       </main>
     </>
