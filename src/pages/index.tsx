@@ -24,12 +24,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main >
-        <div style={{ display: 'flex', columnGap: '6px' }} className={inter.className}>
+        <div style={{ display: 'flex', columnGap: '6px',fontSize:'14px' }} className={inter.className}>
           <span>
 
             Order within {diffHrs} hr {diffMins} mins & Get it <strong> {new Date(today).toLocaleString("en-US", options)}</strong>
           </span>
-          {/*   */}
         </div>
       </main>
     </>
