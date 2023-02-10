@@ -23,8 +23,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main >
-        <div style={{fontSize:'14px'}} className={inter.className}>
+      <main  style={{ fontFamily: 'Proxima' }}>
+        <div style={{fontSize:'12px'}} className={inter.className}>
           <span>
 
             Order within {diffHrs} hr {diffMins} mins & Get it <strong> {new Date(today).toLocaleString("en-US", options)}</strong>
