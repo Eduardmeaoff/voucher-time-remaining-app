@@ -24,7 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main  style={{ fontFamily: 'Proxima' }}>
-        <div style={{fontSize:'12px'}} >
+        <div style={{fontSize:'13px'}} >
           <span>
 
             Order within {diffHrs} hr {diffMins} mins & Get it <strong> {new Date(today).toLocaleString("en-US", options)}</strong>
