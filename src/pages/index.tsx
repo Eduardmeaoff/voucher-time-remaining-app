@@ -24,10 +24,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main  style={{ fontFamily: 'Proxima' }}>
-        <div style={{fontSize:'13px'}} >
+        <div style={{fontSize:'14px'}} >
           <span>
 
-            Order within {diffHrs} hr {diffMins} mins & Get it <strong> {new Date(today).toLocaleString("en-US", options)}</strong>
+            Order within {diffHrs} hr {diffMins} mins & Get it by <strong style={{fontWeight:'bold'}}> {new Date(today).toLocaleString("en-US", options)}</strong>
           </span>
         </div>
       </main>
