@@ -25,7 +25,7 @@ export default function Home() {
       </Head>
       <main  style={{ fontFamily: 'Proxima' }}>
         <div style={{fontSize:'14px'}} >
-          <span>
+          <span style={{lineHeight:'18px'}}>
 
             Order within {diffHrs} hr {diffMins} mins & Get it by <strong style={{fontWeight:'bold'}}> {new Date(today).toLocaleString("en-US", options)}</strong>
           </span>
