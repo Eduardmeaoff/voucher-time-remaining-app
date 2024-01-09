@@ -11,7 +11,7 @@ export default function Home() {
   var diffMs = (end - today);
   var diffHrs = Math.floor((diffMs % 86400000) / 3600000); // hours
   var diffMins = Math.round(((diffMs % 86400000) % 3600000) / 60000); // minutes
-  today.setDate(today.getDate() + 3);
+  today.setDate(today.getDate() + 2);
   let options: any = {
     weekday: 'long', month: 'long', day: 'numeric'
   };
